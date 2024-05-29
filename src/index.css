@@ -296,11 +296,7 @@ input{
 }
 
 .button{
-  display:flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-  padding: 0px;
+  padding: 0;
   height: 52px;
   color: #c9c9c9;
   border-radius: 18px;
