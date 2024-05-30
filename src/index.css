@@ -76,6 +76,7 @@ a{
 }
 
 .home img{
+  z-index: 10;
   border-radius: 1.5vw;
   width: 25vw;
 }
@@ -89,14 +90,15 @@ a{
 .name h1{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  background: linear-gradient(to right, #FFFFFF , #000000);
+  background: linear-gradient(to right, #FFFFFF , #464646);
   background-clip: text;
   padding: 0px 20px;
   color: rgba(123, 123, 123, 0);
 }
 
 .home-me{
-  width: 100%;
+  z-index: 0;
+  width: 95%;
   height: fit-content;
   padding: 10px 20px;
 }
