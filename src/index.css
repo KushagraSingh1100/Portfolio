@@ -73,11 +73,11 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  min-height: 25vw;
+
 }
 
 .home img{
-  border-radius: 20px;
+  border-radius: 1.5vw;
   width: 25vw;
 }
 
@@ -97,11 +97,13 @@ a{
 }
 
 .home-me{
+  width: 100%;
+  height: fit-content;
   padding: 10px 20px;
-  font-size: 2vw;
 }
 
 .home-me p{
+  font-size: 0.5em;
   padding: 2.5px 0px;
 }
 
@@ -124,7 +126,7 @@ a{
 }
 
 .about-heading h1{
-  font-size: 6vw;
+  font-size: 6.5vw;
   background: linear-gradient(to right, #404040 , #FFFFFF);
   background-clip: text;
   color: rgba(123, 123, 123, 0);
@@ -135,12 +137,12 @@ a{
   flex-direction: row;
   margin: 0 3vw;
   text-align: left;
-  width: 100vw;
+  width: 60vw;
 }
 
 .about-para{
   margin-top: 1.5vw;
-  font-size: 1.4vw
+  font-size: 1.8vw
 }
 .right{
   display: flex;
@@ -177,7 +179,7 @@ a{
 }
 
 .skills h1{
-  font-size: 5vw;
+  font-size: 7vw;
   background: linear-gradient(to right ,  #000000, #FFFFFF );
   background-clip: text;
   color: rgba(123, 123, 123, 0);
@@ -263,7 +265,7 @@ a{
 
 .contact-page{
   margin: 5.5vw 5vw;
-  margin-bottom: 2vw;
+  margin-bottom: 10vw;
 }
 
 .contact-heading p{
