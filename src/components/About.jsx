@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div id='about' className="about">
             <div className="about-page">
-            <div className="left" data-aos="fade-right">
+            <div className="left" data-aos="fade-left">
                <div className="left-text">
                 <div className="about-heading">
                     <h1>About Me</h1>
@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                </div>
             </div>
-            <div className="right" data-aos="fade-left">
+            <div className="right" data-aos="fade-right">
                 <img src={require('./utils/react.png')} alt="" />
                 <img src={require('./utils/javascript.png')} alt="" />
                 <img src={require('./utils/html.png')} alt="" />
