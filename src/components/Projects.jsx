@@ -6,10 +6,11 @@ const Projects = () => {
         Aos.init({duration: 1000});
     },[])
     return (
-        <div id='projects' className="projects-page">
+        <div id='projects' className="projects-page" >
             <div className="heading" data-aos="zoom-in">
                 <h1>Projects</h1>
             </div>
+            <div className="projects-div">
             <div className="projects">
                 <div className="card" data-aos="flip-right">
                     <img src={require('./utils/Screenshot 2024-05-28 224957.png')} alt="" />
@@ -29,6 +30,7 @@ const Projects = () => {
                     <h2 >Minimalist News</h2>
                     <p>A news app which keeps it's user up to date with all the latest news from all around the world. It was made using React.js with the help of news API.</p>
                 </div>
+            </div>
             </div>
         </div>
     );

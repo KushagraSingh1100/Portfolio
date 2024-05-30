@@ -30,7 +30,7 @@ const About = () => {
                 <h1>Skills</h1>
                 <p>PYTHON | C++ | C | NODE.js | MONGODB | BOOTSTRAP | TAILWIND</p>
                 </div>
-                <div className="skills-icons" data-aos="fade-right">
+                <div className="skills-icons" data-aos="zoom-in">
                     <img src={require('./utils/python-programming-language-icon.png')} alt="" />
                     <img src={require('./utils/c-plus-plus-programming-language-icon.png')} alt="" />
                     <img src={require('./utils/c-program-icon.png')} alt="" />
