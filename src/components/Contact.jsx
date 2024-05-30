@@ -21,7 +21,7 @@ const Contact = () => {
                         <h1>Email:</h1>
                         <input type="text" className="email-field" placeholder="Enter your email"/>
                     </label>
-                    <label>
+                    <label data-aos="zoom-in">
                         <h1>Message:</h1>
                         <input type="text" className="message-field" placeholder="Enter your message"/>
                     </label>

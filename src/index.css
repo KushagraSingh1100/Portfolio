@@ -264,6 +264,7 @@ a{
 }
 
 .contact-page{
+  height: 30vh;
   margin: 5.5vw 5vw;
   margin-bottom: 10vw;
 }
