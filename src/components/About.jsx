@@ -26,7 +26,7 @@ const About = () => {
             </div>
             </div>
             <div className="skills">
-                <div className="skills-text" data-aos="fade-left">
+                <div className="skills-text" data-aos="fade-right">
                 <h1>Skills</h1>
                 <p>PYTHON | C++ | C | NODE.js | MONGODB | BOOTSTRAP | TAILWIND</p>
                 </div>

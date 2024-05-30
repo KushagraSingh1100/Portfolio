@@ -73,7 +73,6 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .home img{
@@ -109,7 +108,7 @@ a{
 
 .about{
   padding-top: 2.5vw;
-  width: 100%;
+  width: 100vw;
 }
 
 .about-page{
@@ -168,8 +167,9 @@ a{
   align-items:center;
   justify-content: space-between;
   margin: 14vw 4vw;
-  margin-right: 5vw;
+  margin-right: 4vw;
   padding: 0px 0px;
+  width: 100;
 }
 
 .skills-text{
@@ -186,7 +186,7 @@ a{
 }
 
 .skills-icons{
-  margin-top: 2.5vw;
+  margin-top: 0px;
   display: inline-flex;
   flex-direction: row;
   height: fit-content;
