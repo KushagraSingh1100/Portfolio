@@ -29,3 +29,11 @@
     z-index: 999;
     pointer-events: none;
   }
+  @media screen and (max-width: 600px){
+    .ring{
+      display: none;
+    }
+    .dot{
+      display: none;
+    }
+  }
