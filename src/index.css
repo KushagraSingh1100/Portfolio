@@ -7,7 +7,6 @@
   cursor: none;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  padding: 0rem;
   margin: 0rem;
   scroll-behavior: smooth;
 }
@@ -40,6 +39,7 @@ a{
   justify-content: space-between;
   width: 18vw;
 }
+
 
 .links a h3{
   text-shadow: 0vh 0vh 2vw rgb(120, 120, 120);
@@ -82,7 +82,6 @@ a{
 }
 
 .name{
-  width: 60vw;
   align-items: center;
   font-size: 3vw;
 }
@@ -110,16 +109,15 @@ a{
 
 .about{
   padding-top: 2.5vw;
-  width: 100vw;
+  width: 98vw;
 }
 
 .about-page{
   display: flex;
-  flex-direction: row;
   justify-content:space-between;
   align-items: center;
   margin: 2.5vw;
-  margin-right: 15vw;
+  padding-right: 0vw;
 }
 
 .about-heading{
@@ -176,7 +174,7 @@ a{
   margin: 14vw 4vw;
   margin-right: 4vw;
   padding: 0px 0px;
-  width: 100;
+  width: 92vw;
 }
 
 .skills-text{
@@ -275,7 +273,8 @@ a{
 .contact-page{
   height: 30vh;
   margin: 5.5vw 5vw;
-  margin-bottom: 10vw;
+  margin-bottom: 32vw;
+
 }
 
 .contact-heading p{
@@ -322,3 +321,161 @@ input{
   width: 7vw;
 }
 
+.button:hover{
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 600px) {
+  .nav{
+    justify-content: center;
+    height: 10vh;
+  }
+  .nav .portfolio{
+    font-size: 6vw;
+  }
+  .links{
+    display: none;
+  }
+  .home{
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .name{
+    width: 90vw;
+  }
+  .name h1{
+    font-size: 10vw;
+  }
+  .home-me{
+    padding-top: 5vw;
+    font-size: 6vw;
+  }
+  .home img{
+    padding: 5vw;
+    width: 60vw;
+  }
+  .about{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+  }
+  .about-page{
+    width: 98vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+  .about-heading h1{
+    width: max-content;
+    font-size: 13vw;
+  }
+  .about-para{
+    padding: 5vw 0;
+    width: 90vw;
+    font-size: 3.5vw;
+  }
+  .about-page .right{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .about-page .right img{
+    width: 12vw;
+  }
+  .skills{
+    width: 92vw;
+    flex-direction: column;
+    align-items: start;
+  }
+  .skills-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+  }
+  .skills-text p{
+    padding: 5vw 0;
+    font-size: 3vw;
+    width: 100%;
+  }
+  .skills-text h1{
+    font-size: 13vw;
+  }
+  .skills-icons{
+    padding: 5vw 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills-icons img{
+    height: 11vw;
+    width: 10vw;
+  }
+  .projects-page{
+    height: max-content;
+  }
+  .projects-page h1{
+    padding: 0;
+    padding-bottom: 2vw;
+    font-size: 13vw;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    padding-top: 2vw;
+    height: 50vh;
+    width: 70%;
+  }
+  .card img{
+    height: 55%;
+  }
+  .card a{
+    top: 1.5vw;
+    right: 1vw;
+  }
+  .card a img{
+    height: auto;
+    width: 8vw;
+    border-radius: 100%;
+  }
+  .card h2{
+    padding-top: 2vw;
+    font-size: 5vw;
+  }
+  .card p{
+    font-size: 2.5vw;
+  }
+  .contact-heading p{
+    font-size: 5vw;
+    font-weight: 300;
+  }
+  .contact-heading h1{
+    font-size: 13vw;
+  }
+  label h1{
+    font-size: 5vw;
+  }
+  label input{
+    height: 6vw;
+    width: 70%;
+    font-size: 3vw;
+  }
+  .message-field{
+    font-size: 3vw;
+  }
+  .button{
+    font-size: 3vw;
+    margin: 5vw 0;
+    width: 25%;
+    height: 9vw;
+  }
+}
