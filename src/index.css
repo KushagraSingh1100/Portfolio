@@ -11,6 +11,22 @@
   scroll-behavior: smooth;
 }
 
+.loader{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader h1{
+  text-align: center;
+  margin-left: 3vw;
+  margin-top: 5vw;
+  font-weight: 400;
+}
+
 a{
   all: unset;
 }
@@ -479,5 +495,11 @@ input{
     margin: 5vw 0;
     width: 25%;
     height: 9vw;
+  }
+  .loader h1{
+    text-align: center;
+    margin-left: 8vw;
+    margin-top: 12vw;
+    font-weight: 300;
   }
 }
